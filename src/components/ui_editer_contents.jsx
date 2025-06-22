@@ -3,11 +3,25 @@ export function Box1Content() {
   return (
     <>
       <div className="text-xs font-mono">
-        <div>
-          {"<"}!DOCTYPE HTML{">"}
+        <div className="flex">
+          <div className="text-ui-editer-inequality">&lt;</div>
+          <div className="text-ui-editer-doctipe">!DOCTYPE</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-html">html</div>
+          <div className="text-ui-editer-inequality">&gt;</div>
         </div>
-        <div>
-          {"<"}meta chrset="UTF-8 /"{">"}
+        <div className="flex">
+          <div className="text-ui-editer-inequality">&lt;</div>
+          <div className="text-ui-editer-doctipe">meta </div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-html">charset</div>
+          <div className="text-ui-editer-inequality">=</div>
+          <div className="text-ui-editer-container">"</div>
+          <div className="text-ui-editer-container">utf-8</div>
+          <div className="text-ui-editer-container">"</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-inequality">/</div>
+          <div className="text-ui-editer-inequality">&gt;</div>
         </div>
       </div>
     </>

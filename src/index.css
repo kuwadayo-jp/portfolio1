@@ -3,7 +3,7 @@
   --color-pink-main: #ff6781;
   --color-gray-main: #848484;
   --color-ui-header-main: #ffdce2;
-  --color-ui-editer-bk-main: #a5a5a5;
+  --color-ui-editer-bk-main: #1a1a1a;
   --color-ui-sidebar-bk-main: #ddddddde;
   --color-ui-terminal-bk-main: #55555f;
 
@@ -16,6 +16,8 @@
   --color-ui-editer-class: oklch(79.2% 0.209 151.711);
   --color-ui-editer-div: oklch(70.7% 0.165 254.624);
   --color-ui-editer-inequality: oklch(70.7% 0.022 261.325);
+  --color-ui-editer-doctipe: oklch(71.4% 0.203 305.504);
+  --color-ui-editer-html: oklch(80.9% 0.105 251.813);
 
   --font-ui-editer-comment: italic;
 }
