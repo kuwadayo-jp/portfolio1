@@ -1,12 +1,14 @@
 @import "tailwindcss";
-
 @theme {
   --color-pink-main: #ff6781;
   --color-gray-main: #848484;
   --color-ui-header-main: #ffdce2;
-  --color-ui-editer-bk-main: #ffa0b0;
+  --color-ui-editer-bk-main: #a5a5a5;
   --color-ui-sidebar-bk-main: #ddddddde;
   --color-ui-terminal-bk-main: #55555f;
 
+  --color-ui-header-text: #4d4d4d;
   --color-ui-sideber-text: rgb(78, 78, 78);
+
+  --color-ui-editer-text: #222222;
 }

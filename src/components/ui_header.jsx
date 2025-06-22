@@ -3,7 +3,9 @@ function Ui_header() {
     <>
       <div className=" flex w-full h-full justify-center bg-ui-header-main">
         <div className="items-center">❤</div>
-        <div className="items-center font-bold">My Project v.0.1</div>
+        <div className="items-center font-bold text-ui-header-text">
+          My Project v.0.1
+        </div>
       </div>
     </>
   );
