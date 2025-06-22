@@ -1,4 +1,4 @@
-import Contentsarea from "./components/contentsarea";
+import EditerUi from "./components/editerui";
 import Musicplayer from "./components/musicplayer";
 
 function App() {
@@ -8,7 +8,9 @@ function App() {
         <div className=" bg-[url(bgimg.png)] relative aspect-video w-full max-w-screen-xl bg-cover bg-center">
           <div className="absolute inset-0 flex items-center">
             <div className="w-[5%]"></div>
-            <div className="h-[80%] w-[40%] bg-blue-500">要素1</div>
+            <div className="h-[80%] w-[40%] bg-blue-100">
+              <EditerUi />
+            </div>
             <div className="h-[100%] w-[30%] bg-gray-200 ml-4 flex items-end justify-center">
               <img
                 src="main_chara.png"
@@ -16,7 +18,9 @@ function App() {
                 className="h-[85%] object-cover bottom-0"
               />
             </div>
-            <div className="h-[38%] w-[20%] bg-pink-200 ml-6">要素3</div>
+            <div className="h-[38%] w-[20%] bg-pink-100 ml-6">
+              <Musicplayer />
+            </div>
           </div>
         </div>
       </div>
