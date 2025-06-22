@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pink-main: #ff6781;
+  --color-gray-main: #848484;
+}
