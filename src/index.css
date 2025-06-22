@@ -10,5 +10,12 @@
   --color-ui-header-text: #4d4d4d;
   --color-ui-sideber-text: rgb(78, 78, 78);
 
-  --color-ui-editer-text: #222222;
+  --color-ui-editer-text: #ffffff;
+  --color-ui-editer-comment: -oklch(55.1% 0.027 264.364);
+  --color-ui-editer-container: oklch(90.5% 0.182 98.111);
+  --color-ui-editer-class: oklch(79.2% 0.209 151.711);
+  --color-ui-editer-div: oklch(70.7% 0.165 254.624);
+  --color-ui-editer-inequality: oklch(70.7% 0.022 261.325);
+
+  --font-ui-editer-comment: italic;
 }
