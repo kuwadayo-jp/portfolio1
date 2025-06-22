@@ -1,7 +1,7 @@
 function Ui_editer() {
   return (
     <>
-      <div>editer</div>
+      <div className="w-full h-full bg-ui-editer-bk-main">editer</div>
     </>
   );
 }

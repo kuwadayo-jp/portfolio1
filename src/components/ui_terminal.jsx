@@ -1,7 +1,7 @@
 function Ui_terminal() {
   return (
     <>
-      <div>terminal</div>
+      <div className="w-full h-full bg-ui-terminal-bk-main">terminal</div>
     </>
   );
 }

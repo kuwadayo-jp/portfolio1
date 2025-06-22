@@ -7,17 +7,17 @@ function EditerUi() {
   return (
     <>
       <div className="h-full w-full grid grid-rows-[6%_1fr_30%] grid-cols-[24%_1fr] bg-white">
-        <div className="col-span-2 bg-amber-200">
+        <div className="col-span-2">
           <Ui_header />
         </div>
-        <div className="row-span-1 bg-pink-300">
+        <div className="row-span-1">
           <Ui_sideber />
         </div>
-        <div className="bg-blue-300">
+        <div>
           <Ui_editer />
         </div>
-        <div className="bg-pink-300"></div>
-        <div className="bg-gray-900">
+        <div className="bg-ui-sidebar-bk-main"></div>
+        <div>
           <Ui_terminal />
         </div>
       </div>
