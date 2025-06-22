@@ -24,7 +24,7 @@ function Ui_sideber() {
         <div className="flex">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            alt="cssのアイコン"
+            alt="javascriptのアイコン"
             className="w-1/8 h-1/8"
           />
           <div className="text-sm">main.js</div>
@@ -33,7 +33,7 @@ function Ui_sideber() {
         <div className="flex">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg"
-            alt="cssのアイコン"
+            alt="jsonのアイコン"
             className="w-1/8 h-1/8"
           />
           <div className="text-sm">package.json</div>
@@ -42,7 +42,7 @@ function Ui_sideber() {
         <div className="flex">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg"
-            alt="cssのアイコン"
+            alt="markdownのアイコン"
             className="w-1/8 h-1/8"
           />
           <div className="text-sm">README.md</div>
