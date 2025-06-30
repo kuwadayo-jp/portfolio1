@@ -35,7 +35,7 @@ function Ui_sideber({ setSelectedBox, onSelect }) {
             alt="cssのアイコン"
             className="w-1/8 h-1/8"
           />
-          <div className="text-sm">main.css</div>
+          <div className="text-sm">skill.css</div>
         </div>
         <div className="w-full h-1/30"></div>
         <div
@@ -50,7 +50,7 @@ function Ui_sideber({ setSelectedBox, onSelect }) {
             alt="javascriptのアイコン"
             className="w-1/8 h-1/8"
           />
-          <div className="text-sm">main.js</div>
+          <div className="text-xs">introduction.js</div>
         </div>
         <div className="w-full h-1/30"></div>
         <div

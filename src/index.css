@@ -19,5 +19,9 @@
   --color-ui-editer-doctipe: oklch(71.4% 0.203 305.504);
   --color-ui-editer-html: oklch(80.9% 0.105 251.813);
 
+  --color-ui-editer-strict: oklch(80.9% 0.105 251.813);
+  --color-ui-editer-import: rgb(181, 255, 251);
+  --color-ui-editer-skills: rgb(255, 225, 58);
+
   --font-ui-editer-comment: italic;
 }
