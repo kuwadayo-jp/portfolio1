@@ -19,9 +19,17 @@
   --color-ui-editer-doctipe: oklch(71.4% 0.203 305.504);
   --color-ui-editer-html: oklch(80.9% 0.105 251.813);
 
-  --color-ui-editer-strict: oklch(80.9% 0.105 251.813);
   --color-ui-editer-import: rgb(181, 255, 251);
   --color-ui-editer-skills: rgb(255, 225, 58);
+
+  --color-ui-editer-strict: oklch(80.9% 0.105 251.813);
+  --color-ui-editer-const: oklch(80.9% 0.105 251.813);
+  --color-ui-editer-elem: oklch(79.2% 0.209 151.711);
+  --color-ui-editer-colon: oklch(96.413% 0.17623 112.731);
+  --color-ui-editer-category: rgb(255, 136, 172);
+
+  --color-ui-editer-mdaccent: rgb(255, 153, 0);
+  --color-ui-editer-mdplane: rgb(255, 247, 234);
 
   --font-ui-editer-comment: italic;
 }

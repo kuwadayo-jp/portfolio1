@@ -138,7 +138,7 @@ export function Box2Content() {
     <>
       <div className="text-xs font-mono">
         {/* @import "kuwa" */}
-        <div className="text-ui-editer-import">@import "kuwa";</div>
+        <div className="text-ui-editer-import">@import "koharu";</div>
         {/* 改行 */}
         <div className="whitespace-pre">{`\n`}</div>
         {/*@skills { */}
@@ -228,15 +228,153 @@ export function Box2Content() {
 
 //js風の内容
 export function Box3Content() {
-  return <div>📦 Box 3 の詳細内容です</div>;
+  return (
+    <>
+      <div className="text-xs font-mono">
+        {/* "use strict"; */}
+        <div className="flex">
+          <div className="text-ui-editer-strict">"use strict"</div>
+          <div className="text-ui-editer-inequality">;</div>
+        </div>
+        {/* 改行 */}
+        <div className="whitespace-pre">{`\n`}</div>
+        {/* const introductionData { */}
+        <div className="flex">
+          <div className="text-ui-editer-const">const</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-text">introductionData</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-inequality">{"{"}</div>
+        </div>
+        {/* NAME:"Koharu",*/}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">NAME</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">"Koharu"</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* AGE:21, */}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">AGE</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">21</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* GENDER:"♀", */}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">GENDER</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">"♀"</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* STATUS:"jub hunt", */}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">STATUS</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">"jub hunt"</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* NICKNAME:"kuwadayo!", */}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">NICK_NAME</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">"kuwadayo!"</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* HOBY:"chatting", */}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">HOBY</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">"chatting"</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* LIKE:"new_technology", */}
+        <div className="flex whitespace-pre">
+          <div>{"\t"}</div>
+          <div className="text-ui-editer-category">LIKE</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-colon">:</div>
+          <div>&nbsp;</div>
+          <div className="text-ui-editer-elem">"new_technology"</div>
+          <div className="text-ui-editer-inequality">,</div>
+        </div>
+        {/* }; */}
+        <div className="flex">
+          <div className="text-ui-editer-inequality">{"}"}</div>
+          <div className="text-ui-editer-inequality">;</div>
+        </div>
+        {/* 点滅アニメーション */}
+        <div className="text-ui-editer-text">点滅アニメーション</div>
+      </div>
+    </>
+  );
 }
 
 //json風の内容
 export function Box4Content() {
-  return <div>📦 Box 4 の詳細内容です</div>;
+  return (
+    <>
+      <div className="text-white">
+        <div>ASCIIアート予定</div>
+        <div>■_点滅アニメーション</div>
+      </div>
+    </>
+  );
 }
 
 //md風の内容
 export function Box5Content() {
-  return <div>📦 Box 5 の詳細内容です</div>;
+  return (
+    <>
+      <div className="text-xs font-mono">
+        {/* # 自己紹介ポートフォリオだよ */}
+        <div className="text-ui-editer-mdaccent">
+          # 自己紹介ポートフォリオだよ
+        </div>
+        {/* Hello... */}
+        <div className="text-ui-editer-mdplane">Hello!I'm koharu!</div>
+        <div className="text-ui-editer-mdplane">
+          I'm currentry studyng web development.
+        </div>
+        {/* 改行 */}
+        <div className="whitespace-pre">{`\n`}</div>
+        {/* このサイトの技術仕様一覧だよ */}
+        <div className="text-ui-editer-mdaccent">
+          # このサイトの技術仕様一覧だよ
+        </div>
+        <div className="text-ui-editer-mdplane">- Node.js</div>
+        <div className="text-ui-editer-mdplane">- React</div>
+        <div className="text-ui-editer-mdplane">- Tailwindcss</div>
+        <div className="text-ui-editer-mdplane">- HTML/CSS/JavaScript</div>
+        <div className="text-ui-editer-mdplane">- vite</div>
+        <div className="text-ui-editer-mdplane">- Git</div>
+        <div className="text-ui-editer-mdplane">- vscode</div>
+        {/* 改行 */}
+        <div className="whitespace-pre">{`\n`}</div>
+        {/* #コマンド一覧だよ */}
+        <div className="text-ui-editer-mdaccent"># コマンド一覧だよ</div>
+        <div className="text-ui-editer-mdplane">- date</div>
+        <div className="text-ui-editer-mdplane">- message</div>
+        <div className="text-ui-editer-mdplane">- seclet</div>
+      </div>
+    </>
+  );
 }
