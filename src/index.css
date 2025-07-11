@@ -33,3 +33,24 @@
 
   --font-ui-editer-comment: italic;
 }
+
+.glass {
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@layer utilities {
+  .animate-blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}

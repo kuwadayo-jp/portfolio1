@@ -106,7 +106,9 @@ export function Box1Content() {
           <div className="text-ui-editer-inequality">&lt;</div>
           <div className="text-ui-editer-doctipe">div</div>
           <div className="text-ui-editer-inequality">&gt;</div>
-          <div className="text-ui-editer-text">■_点滅アニメーション</div>
+          <div className="text-ui-editer-text">
+            <span className="animate-blink">_</span>
+          </div>
           <div className="text-ui-editer-inequality">&lt;</div>
           <div className="text-ui-editer-inequality">/</div>
           <div className="text-ui-editer-doctipe">div</div>
@@ -322,7 +324,9 @@ export function Box3Content() {
           <div className="text-ui-editer-inequality">;</div>
         </div>
         {/* 点滅アニメーション */}
-        <div className="text-ui-editer-text">点滅アニメーション</div>
+        <div className="text-ui-editer-text">
+          <span className="animate-blink">_</span>
+        </div>
       </div>
     </>
   );
@@ -334,7 +338,9 @@ export function Box4Content() {
     <>
       <div className="text-white">
         <div>ASCIIアート予定</div>
-        <div>■_点滅アニメーション</div>
+        <div>
+          <span className="animate-blink">_</span>
+        </div>
       </div>
     </>
   );
