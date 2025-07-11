@@ -15,7 +15,7 @@ function App() {
               <img
                 src="named.png"
                 alt="キャラ"
-                className="h-[85%] object-cover bottom-0"
+                className="h-[82%] object-cover bottom-0"
               />
             </div>
             <div className="h-[38%] w-[20%] ml-6">
